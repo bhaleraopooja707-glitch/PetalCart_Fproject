@@ -1,87 +1,27 @@
  <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flowers | PetalCart 🌸</title>
-  <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flowers | PetalCart 🌸</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <!-- NAVBAR -->
-  <nav class="navbar">
-    <h1 class="logo">PetalCart 🌸</h1>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="flowers.html" class="active">Flowers</a></li>
-      <li><a href="cart.html">Cart</a></li>
-    </ul>
-  </nav>
+<nav class="navbar">
+  <h1 class="logo">PetalCart 🌸</h1>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="flowers.html" class="active">Flowers</a></li>
+    <li><a href="cart.html">Cart 🛒</a></li>
+  </ul>
+</nav>
 
-  <!-- CATEGORIES -->
-  <section class="categories">
-    <div class="category-list">
+<section class="products" id="flower-list">
+  <!-- Products will load dynamically -->
+</section>
 
-      <div class="category-card selected" data-category="All">
-        <img src="images/all-flowers.jpg" alt="All Flowers">
-        <p>All Flowers</p>
-      </div>
-
-      <div class="category-card" data-category="Roses">
-        <img src="images/rose.jpg" alt="Roses">
-        <p>Roses</p>
-      </div>
-
-      <div class="category-card" data-category="Sunflowers">
-        <img src="images/sunflower.jpg" alt="Sunflowers">
-        <p>Sunflowers</p>
-      </div>
-
-      <div class="category-card" data-category="Lilies">
-        <img src="images/lily.jpg" alt="Lilies">
-        <p>Lilies</p>
-      </div>
-
-      <div class="category-card" data-category="Tulips">
-        <img src="images/tulip-rose.jpg" alt="Tulips">
-        <p>Tulips</p>
-      </div>
-
-      <div class="category-card" data-category="Orchids">
-        <img src="images/orchid.jpg" alt="Orchids">
-        <p>Orchids</p>
-      </div>
-
-      <div class="category-card" data-category="Mixed">
-        <img src="images/mixed.jpg" alt="Mixed Flowers">
-        <p>Mixed</p>
-      </div>
-
-      <div class="category-card" data-category="Lavender">
-        <img src="images/lavender.jpg" alt="Lavender">
-        <p>Lavender</p>
-      </div>
-
-      <div class="category-card" data-category="Bouquets">
-        <img src="images/bouquet.jpg" alt="Bouquets">
-        <p>Bouquets</p>
-      </div>
-
-      <div class="category-card" data-category="Sunshine">
-        <img src="images/sunshine-bouquet.jpg" alt="Sunshine Bouquet">
-        <p>Sunshine</p>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- PRODUCTS GRID -->
-  <section class="products" id="flower-list">
-    <!-- Products will load here from products.js -->
-  </section>
-
-  <!-- JS -->
-  <script src="js/products.js"></script>
+<script src="js/products.js"></script>
 
 </body>
 </html>
