@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flowers | PetalCart 🌸</title>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/cart.css">
-
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -17,7 +13,7 @@
     <h1 class="logo">PetalCart 🌸</h1>
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="flowers.html">Flowers</a></li>
+      <li><a href="flowers.html" class="active">Flowers</a></li>
       <li><a href="cart.html">Cart</a></li>
     </ul>
   </nav>
@@ -47,7 +43,7 @@
       </div>
 
       <div class="category-card" data-category="Tulips">
-        <img src="images/tulip.jpg" alt="Tulips">
+        <img src="images/tulip-rose.jpg" alt="Tulips">
         <p>Tulips</p>
       </div>
 
@@ -66,12 +62,22 @@
         <p>Lavender</p>
       </div>
 
+      <div class="category-card" data-category="Bouquets">
+        <img src="images/bouquet.jpg" alt="Bouquets">
+        <p>Bouquets</p>
+      </div>
+
+      <div class="category-card" data-category="Sunshine">
+        <img src="images/sunshine-bouquet.jpg" alt="Sunshine Bouquet">
+        <p>Sunshine</p>
+      </div>
+
     </div>
   </section>
 
-  <!-- PRODUCT GRID -->
+  <!-- PRODUCTS GRID -->
   <section class="products" id="flower-list">
-    <!-- Products loaded by JS -->
+    <!-- Products will load here from products.js -->
   </section>
 
   <!-- JS -->
