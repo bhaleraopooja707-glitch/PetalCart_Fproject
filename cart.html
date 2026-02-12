@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PetalCart 🌸 | Cart</title>
+  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="cart.css">
+
+
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <h1>PetalCart 🌸</h1>
+  <div>
+    <a href="index.html">Home</a>
+    <a href="flowers.html">Flowers</a>
+    <a href="cart.html" class="active">Cart</a>
+  </div>
+</nav>
+
+<!-- CART CONTAINER -->
+<section class="cart-container">
+
+
+
+  <!-- LEFT: ITEMS -->
+  <div class="price-box">
+    <h2>Your Cart</h2>
+
+    <!-- JS will inject items here -->
+    <div id="cart-items"></div>
+  </div>
+
+  <!-- RIGHT: SUMMARY -->
+  <div class="cart-summary">
+    <h3>Price Details</h3>
+
+    <div class="summary-row">
+      <span>Total</span>
+      <span id="cart-total">₹0</span>
+    </div>
+
+  
+    <button class="checkout">Proceed to Checkout</button>
+
+    <button onclick="clearCart()">Clear Cart</button>
+  </div>
+
+</section>
+
+<!-- ✅ JS MUST BE HERE -->
+<script src="js/cart.js"></script>
+
+</body>
+</html>
